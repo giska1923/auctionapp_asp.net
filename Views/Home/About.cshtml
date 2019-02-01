@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<hr/>
+
+<div class="row">
+    <div class="col-md-7">
+        <p>
+            This is a simple Web Application for Auctions, which is used to give users freedom of posting any products
+            they own, and then sell it for any price they think it's compatible with the selling item. Users are are obliged
+            to provide three necessary information, such as <b><i>name</i></b> which in fully describes the product,
+            then <b><i>starting price</i></b> that is going to be bidded, and eventually sold for the last bidded price
+            to other user <i>(Note that non-users can't bid on this Web application)</i> and <b><i>image file</i></b> that will show
+            others the product itself <i>
+                (Users are kindly suggested not to upload false images, that are not showing
+                the product correctly, because they will get banned from the application permanently)
+            </i>. Posted products
+            are not instantly ready for bidding. But don't worry because every posted product will be inspected by the
+            site Admin and the Admin himself will open a product for an auction.
+        </p>
+    </div>
+    <div class="col-md-5">
+        <div class="card text-white bg-dark mb-3 mt-3 ml-5" style="max-width: 18rem;">
+            <div class="card-header">Developer's Info</div>
+            <div class="card-body">
+                <h5 class="card-title" style="margin-top: -3%;">Ognjen Markovic</h5>
+                <h5 class="card-subtitle">Mentor: Nemanja Kojic</h5>
+                <p class="card-text">Currently studying at The University of Belgrade School of Electrical Engineering</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+<p>The list below shows 1 token value in different currencies. Currently active currency on this Web site is <b>@ViewBag.ActiveCurr</b>.</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Currency</th>
+            <th scope="col">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>RSD</td>
+            <td>@ViewBag.RSD</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>EUR</td>
+            <td>@ViewBag.EUR</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>USD</td>
+            <td>@ViewBag.USD</td>
+        </tr>
+    </tbody>
+</table>

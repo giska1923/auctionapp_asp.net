@@ -1,0 +1,96 @@
+﻿@model PagedList.IPagedList<Aukcija.Models.Auction>
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Home page</h1>
+
+<hr />
+<div class="container">
+    @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+    {
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More...</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    @Html.TextBox("minPrice", "", new { @class = "form-control dropdown-item", @placeholder = "Minimum price"})
+                    @Html.TextBox("maxPrice", "", new { @class = "form-control dropdown-item", @placeholder = "Maximum price" })
+                    <div role="separator" class="dropdown-divider"></div>
+                    <div class="dropdown-item-text">
+                        Sort by Status
+                    </div>
+                    <div class="dropdown-item">
+                        <input class="form-check-input" id="statusRD" name="statusRD" type="checkbox" value="true" />
+                        <label for="statusRD" class="form-check-label">Ready</label>
+                    </div>
+                    <div class="dropdown-item">
+                        <input class="form-check-input" id="statusOP" name="statusOP" type="checkbox" value="true" />
+                        <label for="statusOP" class="form-check-label">Opened</label>
+                    </div>
+                    <div class="dropdown-item">
+                        <input class="form-check-input" id="statusCO" name="statusCO" type="checkbox" value="true" />
+                        <label for="statusCO" class="form-check-label">Sold</label>
+                    </div>
+                </div>
+            </div>
+            @Html.TextBox("search", "", new { @class = "form-control", @placeholder = "Search", @style = "max-width:82%;" } )
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </div>
+        </div>
+    }
+</div>
+    <hr />
+    <input type="hidden" id="serversidetime" value="@DateTime.Now.ToString("MM'/'dd'/'yyyy HH:mm:ss")" />
+@if (Model != null)
+{
+    if (Model.Count() == 0)
+    {
+        <p class="text-center text-danger" style="font-size:160%;">
+            Your search did not match any of existing products. Please try again.
+        </p>
+    }
+    else
+    {
+        <div class="card-columns">
+            @foreach (var item in Model)
+            {
+                <div class="card" style="max-width:319px;">
+                    <img src="@Url.Content(item.Image.Path)" class="card-img-top" alt="@item.Image.Name" />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">@Html.ActionLink(item.Name, "Details", "Auctions", new { id = item.GUID }, null)</h4>
+                        @if (item.Status == "RD")
+                        {
+                            <h4 class="card-subtitle text-danger"><b>@item.Created.ToString()</b></h4>
+                            <h5 class="card-subtitle text-success mt-2">@item.StartingP.ToString("0.##") @item.Currency</h5>
+                        }
+                        else
+                        {
+                            <h4 class="card-subtitle text-danger"><b data-countdown="@(((DateTime)item.Closed).ToString("MM'/'dd'/'yyyy HH:mm:ss"))" id="@item.GUID.ToString()"></b></h4>
+                            <h5 class="displayobjectJson card-subtitle text-success mt-2" value="@item.GUID.ToString()">@item.CurrentP.ToString("0.##") @item.Currency</h5>
+                        }
+                        <p class="text-muted mt-3">@item.AspNetUsers.Email</p>
+                        @if (item.Status != "RD")
+                        {
+                            if (DateTime.Compare(DateTime.Now, (DateTime)item.Closed) < 0)
+                            {
+                                <a class="btn btn-warning btn-lg float-md-right mb-4" href="/Home/BidNow/@item.GUID.ToString()">Bid Now</a>
+                            }
+                            else
+                            {
+                                <a class="btn btn-secondary btn-lg float-md-right mb-4" href="/Auctions/Details/@item.GUID.ToString()">Over</a>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+}
+<hr />
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index", new { search = ViewBag.Search, minPrice = ViewBag.minPrice, maxPrice = ViewBag.maxPrice, statusRD = ViewBag.RD, statusOP = ViewBag.OP, statusCO = ViewBag.CO, page }), PagedListRenderOptions.ClassicPlusFirstAndLast)

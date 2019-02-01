@@ -1,0 +1,162 @@
+﻿@model Aukcija.Models.Auction
+@using Aukcija.Models
+
+@{
+    ViewBag.Title = "Details";
+    List<Bid> list = (List<Bid>)ViewBag.listBids;
+}
+
+<h2>Product Details</h2>
+
+<div class="row">
+    <div class="col-md-3">
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.StartingP)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.StartingP) @Html.DisplayFor(model => model.Currency)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+
+            @if (Model.Status == "RD")
+            {
+                <dd>READY</dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Created)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Created)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Duration)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Duration)
+                </dd>
+            }
+            else if (Model.Status == "OP")
+            {
+                <dd>OPENED</dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CurrentP)
+                </dt>
+
+                <dd class="displayobjectJson" value="@Model.GUID.ToString()">@Model.CurrentP.ToString("0.##") @Model.Currency</dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Created)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Created)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Opened)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Opened)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Duration)
+                </dt>
+
+                <dd data-countdown="@(((DateTime)Model.Closed).ToString("MM'/'dd'/'yyyy HH:mm:ss"))">
+
+                </dd>
+            }
+            else
+            {
+                <dd>CLOSED</dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CurrentP)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CurrentP) @Html.DisplayFor(model => model.Currency)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Opened)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Opened)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Closed)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Closed)
+                </dd>
+            }
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AspNetUsers.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AspNetUsers.Email)
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-9">
+        <img src="@Url.Content(Model.Image.Path)" alt="@Model.Image.Name" class="rounded" height="500"/>
+    </div>
+</div>
+<input type="hidden" id="serversidetime" value="@DateTime.Now.ToString("MM'/'dd'/'yyyy HH:mm:ss")" />
+@if (Model.Status == "OP" || Model.Status == "CO")
+{
+    <div class="container">
+        <hr />
+        <h2>Bids on this Auction:</h2>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Email</th>
+                    <th scope="col">Tokens bidded</th>
+                    <th scope="col">Timestamp</th>
+                </tr>
+            </thead>
+            <tbody class="displayBiddedUser" value="@Model.GUID">
+                @foreach (var item in list)
+                {
+                    <tr>
+                        <td>@item.AspNetUsers.UserName</td>
+                        <td class="getTokenClass">@item.TokenNum</td>
+                        <td>@item.Timestamp.ToString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+<hr/>
+
+<p>
+    @Html.ActionLink("Back to Home", "Index", "Home", null, null)
+</p>

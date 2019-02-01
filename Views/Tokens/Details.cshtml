@@ -1,0 +1,88 @@
+﻿@model Aukcija.Models.Token
+
+@{
+    ViewBag.Title = "Parameter details";
+}
+
+<h2>Parameters</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ActiveCurrency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActiveCurrency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RSD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RSD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.USD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.USD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EUR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EUR)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+</p>

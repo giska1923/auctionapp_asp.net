@@ -1,0 +1,47 @@
+﻿@model PagedList.IPagedList<Aukcija.Models.Auction>
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Open Auction";
+}
+
+<h2>Open Auction</h2>
+
+<hr />
+
+
+@if (Model != null)
+{
+    if (Model.Count() == 0)
+    {
+        <p class="text-center text-danger" style="font-size:160%;">
+            No auctions in "READY queue".
+        </p>
+    }
+    else
+    {
+        <div class="card-columns">
+            @foreach (var item in Model)
+            {
+                using (Html.BeginForm("OpenAuction", "Home", FormMethod.Get, new { @class = "form-group" }))
+                {
+                    <div class="card" style="max-width:319px;">
+                        <img src="@Url.Content(item.Image.Path)" class="card-img-top" alt="@item.Image.Name" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title">@Html.ActionLink(item.Name, "Details", "Auctions", new { id = item.GUID }, null)</h4>
+                            <h4 class="card-subtitle text-danger"><b>@item.Duration</b></h4>
+                            <h5 class="card-subtitle text-success mt-2">@item.StartingP.ToString("0.##") @item.Currency</h5>
+                            <p class="text-muted mt-3">@item.AspNetUsers.Email</p>
+                            <input type="hidden" id="@item.GUID" value="@item.GUID" name="openedAuctionGuid"/>
+                            <input type="submit" value="Open auction" class="btn btn-success btn-lg float-md-right mb-4" />
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    }
+}
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("OpenAuction", new { page }), PagedListRenderOptions.ClassicPlusFirstAndLast)

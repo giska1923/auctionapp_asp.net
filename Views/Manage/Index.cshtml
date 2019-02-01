@@ -1,0 +1,99 @@
+﻿@model Aukcija.Models.AspNetUser
+@using Microsoft.AspNet.Identity
+
+@{
+    ViewBag.Title = "Account Details";
+    bool user = User.IsInRole("User");
+}
+
+<h2>My Profile</h2>
+
+<div>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @ViewBag.FirstName
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @ViewBag.LastName
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @ViewBag.Email
+        </dd>
+
+        @if (user)
+        {
+            <dt>
+                Auctions Won
+            </dt>
+
+            <dd>
+                @Html.ActionLink("List them", "ShowWonAuctions", "Auctions", null, null)
+            </dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TokenSum) (
+            @if (user)
+            {
+                <a href="#" data-toggle="modal" data-target="#exampleModalCenter">BUY TOKENS!</a>
+
+                //Html.ActionLink("BUY TOKENS!", "BuyTokens", null, null);
+            }  )
+        </dt>
+
+        <dd>
+            @ViewBag.TokenSum
+        </dd>
+
+
+    </dl>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Click to buy tokens!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                You will be redirected to a payment page. Please choose one of the three existing packages.
+            </div>
+            <div class="modal-footer">
+                <a href="/Manage/BuyTokens/?package=silver" class="btn btn-secondary">Silver package</a>
+                <a href="/Manage/BuyTokens/?package=gold" class="btn btn-warning">Gold package</a>
+                <a href="/Manage/BuyTokens/?package=premium" class="btn btn-success">Premium package</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Edit your Account", "EditAccount") |
+    @if (user)
+    {
+        @Html.ActionLink("List your Token orders", "ListTokenOrder");
+    }
+    else
+    {
+        @Html.ActionLink("Edit parameters here", "Details", "Tokens", null, new { });
+    }
+</p>

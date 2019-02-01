@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Aukcija.Models.TokenOrder>
+
+@{
+    ViewBag.Title = "ListTokenOrder";
+}
+
+<h2>Your token orders</h2>
+
+<hr />
+<div>
+    @if (Model != null)
+    {
+        if (Model.Count() == 0)
+        {
+            <p class="text-center text-danger" style="font-size:160%;">
+                You haven't ordered any tokens yet!
+            </p>
+        }
+        else
+        {
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Token Sum</th>
+                        <th scope="col">Package price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var order in Model)
+                    {
+                        <tr>
+                            <td>
+                                @order.TokenNum
+                            </td>
+                            <td>
+                                @(((decimal)(order.PackageP)).ToString("0.##"))
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    }
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index", "Home", null, null)
+</p>
