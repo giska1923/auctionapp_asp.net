@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TokenSum" Type="Int32" Nullable="false" />
+    <Property Name="isAdmin" Type="Boolean" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Auction" Relationship="Self.FK_AUCTION_REFERENCE_USER" FromRole="AspNetUsers" ToRole="Auction" />
+    <NavigationProperty Name="TokenOrder" Relationship="Self.FK_TOKENORDER_REFERENCE_USER" FromRole="AspNetUsers" ToRole="TokenOrder" />
+    <NavigationProperty Name="Bid" Relationship="Model.FK_BID_REFERENCE_USER" FromRole="AspNetUsers" ToRole="Bid" />
+  </EntityType>
+  <EntityType Name="Auction">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Duration" Type="Int32" Nullable="false" />
+    <Property Name="StartingP" Type="Decimal" Precision="18" Scale="5" Nullable="false" />
+    <Property Name="CurrentP" Type="Decimal" Precision="18" Scale="5" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Opened" Type="DateTime" Precision="3" />
+    <Property Name="Closed" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="IdUser" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IdImage" Type="Int32" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_AUCTION_REFERENCE_USER" FromRole="Auction" ToRole="AspNetUsers" />
+    <NavigationProperty Name="Image" Relationship="Self.FK_AUCTION_REFERENCE_IMAGE" FromRole="Auction" ToRole="Image" />
+    <Property Name="Currency" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bid" Relationship="Model.FK_BID_REFERENCE_AUCTION" FromRole="Auction" ToRole="Bid" />
+  </EntityType>
+  <EntityType Name="Image">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Auction" Relationship="Self.FK_AUCTION_REFERENCE_IMAGE" FromRole="Image" ToRole="Auction" />
+  </EntityType>
+  <EntityType Name="Token">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumN" Type="Int32" />
+    <Property Name="NumD" Type="Int32" />
+    <Property Name="NumS" Type="Int32" />
+    <Property Name="NumP" Type="Int32" />
+    <Property Name="NumG" Type="Int32" />
+    <Property Name="RSD" Type="Decimal" Precision="18" Scale="5" />
+    <Property Name="USD" Type="Decimal" Precision="18" Scale="5" />
+    <Property Name="EUR" Type="Decimal" Precision="18" Scale="5" />
+    <Property Name="ActiveCurrency" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TokenOrder">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="GUID" Type="Guid" Nullable="false" />
+    <Property Name="IdUser" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TokenNum" Type="Int32" Nullable="false" />
+    <Property Name="PackageP" Type="Decimal" Precision="18" Scale="5" />
+    <Property Name="Status" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_TOKENORDER_REFERENCE_USER" FromRole="TokenOrder" ToRole="AspNetUsers" />
+  </EntityType>
+  <Association Name="FK_AUCTION_REFERENCE_USER">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Auction" Type="Self.Auction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Auction">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TOKENORDER_REFERENCE_USER">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="TokenOrder" Type="Self.TokenOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TokenOrder">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AUCTION_REFERENCE_IMAGE">
+    <End Role="Image" Type="Self.Image" Multiplicity="0..1" />
+    <End Role="Auction" Type="Self.Auction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Image">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Auction">
+        <PropertyRef Name="IdImage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" />
+    <EntitySet Name="Auction" EntityType="Self.Auction" />
+    <EntitySet Name="Image" EntityType="Self.Image" />
+    <EntitySet Name="Token" EntityType="Self.Token" />
+    <EntitySet Name="TokenOrder" EntityType="Self.TokenOrder" />
+    <AssociationSet Name="FK_AUCTION_REFERENCE_USER" Association="Self.FK_AUCTION_REFERENCE_USER">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Auction" EntitySet="Auction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TOKENORDER_REFERENCE_USER" Association="Self.FK_TOKENORDER_REFERENCE_USER">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="TokenOrder" EntitySet="TokenOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AUCTION_REFERENCE_IMAGE" Association="Self.FK_AUCTION_REFERENCE_IMAGE">
+      <End Role="Image" EntitySet="Image" />
+      <End Role="Auction" EntitySet="Auction" />
+    </AssociationSet>
+    <EntitySet Name="Bid" EntityType="Model.Bid" />
+    <AssociationSet Name="FK_BID_REFERENCE_USER" Association="Model.FK_BID_REFERENCE_USER">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Bid" EntitySet="Bid" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BID_REFERENCE_AUCTION" Association="Model.FK_BID_REFERENCE_AUCTION">
+      <End Role="Auction" EntitySet="Auction" />
+      <End Role="Bid" EntitySet="Bid" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Bid">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUser" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="GUIDAuction" Type="Guid" Nullable="false" />
+    <Property Name="TokenNum" Type="Int32" Nullable="false" />
+    <Property Name="Timestamp" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Model.FK_BID_REFERENCE_USER" FromRole="Bid" ToRole="AspNetUsers" />
+    <NavigationProperty Name="Auction" Relationship="Model.FK_BID_REFERENCE_AUCTION" FromRole="Bid" ToRole="Auction" />
+  </EntityType>
+  <Association Name="FK_BID_REFERENCE_USER">
+    <End Type="Model.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+    <End Type="Model.Bid" Role="Bid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bid">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BID_REFERENCE_AUCTION">
+    <End Type="Model.Auction" Role="Auction" Multiplicity="1" />
+    <End Type="Model.Bid" Role="Bid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Auction">
+        <PropertyRef Name="GUID" />
+      </Principal>
+      <Dependent Role="Bid">
+        <PropertyRef Name="GUIDAuction" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="Model.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="TokenSum" ColumnName="TokenSum" />
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Auction">
+      <EntityTypeMapping TypeName="Model.Auction">
+        <MappingFragment StoreEntitySet="Auction">
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="StartingP" ColumnName="StartingP" />
+          <ScalarProperty Name="CurrentP" ColumnName="CurrentP" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Opened" ColumnName="Opened" />
+          <ScalarProperty Name="Closed" ColumnName="Closed" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdImage" ColumnName="IdImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Image">
+      <EntityTypeMapping TypeName="Model.Image">
+        <MappingFragment StoreEntitySet="Image">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Token">
+      <EntityTypeMapping TypeName="Model.Token">
+        <MappingFragment StoreEntitySet="Token">
+          <ScalarProperty Name="ActiveCurrency" ColumnName="ActiveCurrency" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumN" ColumnName="NumN" />
+          <ScalarProperty Name="NumD" ColumnName="NumD" />
+          <ScalarProperty Name="NumS" ColumnName="NumS" />
+          <ScalarProperty Name="NumP" ColumnName="NumP" />
+          <ScalarProperty Name="NumG" ColumnName="NumG" />
+          <ScalarProperty Name="RSD" ColumnName="RSD" />
+          <ScalarProperty Name="USD" ColumnName="USD" />
+          <ScalarProperty Name="EUR" ColumnName="EUR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TokenOrder">
+      <EntityTypeMapping TypeName="Model.TokenOrder">
+        <MappingFragment StoreEntitySet="TokenOrder">
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="TokenNum" ColumnName="TokenNum" />
+          <ScalarProperty Name="PackageP" ColumnName="PackageP" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bid">
+      <EntityTypeMapping TypeName="Model.Bid">
+        <MappingFragment StoreEntitySet="Bid">
+          <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+          <ScalarProperty Name="TokenNum" ColumnName="TokenNum" />
+          <ScalarProperty Name="GUIDAuction" ColumnName="GUIDAuction" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

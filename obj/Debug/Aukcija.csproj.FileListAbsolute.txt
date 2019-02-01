@@ -1,0 +1,272 @@
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\ApplicationInsights.config
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\csc.exe
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\vbc.exe
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\VBCSCompiler.exe
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Aukcija.dll.config
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Aukcija.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Aukcija.pdb
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Antlr3.Runtime.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\EntityFramework.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\EntityFramework.SqlServer.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.Web.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.ApplicationInsights.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Newtonsoft.Json.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Owin.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Helpers.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Mvc.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Optimization.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Razor.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.WebPages.Deployment.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.WebPages.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.WebPages.Razor.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\WebGrease.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.Web.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.ApplicationInsights.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Helpers.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Mvc.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Optimization.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.Razor.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.WebPages.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.WebPages.Deployment.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\System.Web.WebPages.Razor.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Antlr3.Runtime.pdb
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Newtonsoft.Json.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\EntityFramework.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\EntityFramework.SqlServer.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\obj\Debug\Aukcija.dll
+c:\users\ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\obj\Debug\Aukcija.pdb
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija\Aukcija\obj\Debug\Aukcija.csprojResolveAssemblyReference.cache
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\PagedList.dll
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\PagedList.Mvc.dll
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\PagedList.xml
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\PagedList.Mvc.xml
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Ogi\documents\visual studio 2015\Projects\Aukcija\Aukcija\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\ApplicationInsights.config
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\csc.exe
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\vbc.exe
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Aukcija.dll.config
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Aukcija.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Aukcija.pdb
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Antlr3.Runtime.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\EntityFramework.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\EntityFramework.SqlServer.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.Web.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Newtonsoft.Json.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Owin.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\PagedList.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\PagedList.Mvc.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Helpers.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Mvc.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Optimization.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Razor.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.WebPages.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\WebGrease.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.Web.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\PagedList.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\PagedList.Mvc.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Helpers.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Mvc.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Optimization.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.Razor.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.WebPages.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Antlr3.Runtime.pdb
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Newtonsoft.Json.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\EntityFramework.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\EntityFramework.SqlServer.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\obj\Debug\Aukcija.csprojAssemblyReference.cache
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\obj\Debug\Aukcija.csproj.CoreCompileInputs.cache
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\obj\Debug\Aukcija.csproj.CopyComplete
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\obj\Debug\Aukcija.dll
+C:\Users\Ognjen\source\repos\Aukcija2\Aukcija\obj\Debug\Aukcija.pdb
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\ApplicationInsights.config
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\csc.exe
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\vbc.exe
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Aukcija.dll.config
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Aukcija.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Aukcija.pdb
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Antlr3.Runtime.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\EntityFramework.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\EntityFramework.SqlServer.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.Web.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Newtonsoft.Json.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Owin.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\PagedList.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\PagedList.Mvc.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Helpers.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Mvc.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Optimization.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Razor.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.WebPages.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\WebGrease.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.Web.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\PagedList.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\PagedList.Mvc.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Helpers.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Mvc.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Optimization.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.Razor.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.WebPages.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Antlr3.Runtime.pdb
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Newtonsoft.Json.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\EntityFramework.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\EntityFramework.SqlServer.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\obj\Debug\Aukcija.csprojResolveAssemblyReference.cache
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\obj\Debug\Aukcija.dll
+C:\Users\Ogi\Documents\Visual Studio 2015\Projects\Aukcija2\Aukcija\obj\Debug\Aukcija.pdb
